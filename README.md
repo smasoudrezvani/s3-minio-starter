@@ -295,7 +295,7 @@ If you later enable OIDC role assumption, you can add a job that authenticates t
 
 ## License
 
-MIT. See `LICENSE` (add one if it’s not already in your repo).
+MIT. See `LICENSE`.
 
 ---
 
