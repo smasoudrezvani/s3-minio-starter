@@ -1,0 +1,1 @@
+"""Package marker for s3-minio-starter."""
