@@ -9,19 +9,10 @@ A lean, production-minded starter that shows you can **read/write data to AWS S3
 * **Partitioned keys**, **object tags**, and **metadata**
 * **Presigned GET/PUT URLs** (secure, time-limited sharing)
 * **Minimal IAM** samples
-* **Tests** with `moto` (no AWS needed)
-
-No Glue, no Athena, no Step Functions, no local Docker/minikube required.
-
-> Repo: `https://github.com/smasoudrezvani/s3-minio-starter`
+* **Tests** with `moto`
 
 ---
 
-## Why this repo?
-
-Hiring managers for MLOps/Data Science want to see practical AWS fluency: secure configuration, safe file handling, predictable layouts, and automation hooks—**without** a full data platform. This repo nails the essentials and stays readable.
-
----
 
 ## Features
 
@@ -287,7 +278,6 @@ If you later enable OIDC role assumption, you can add a job that authenticates t
 
 
 ## Contributing
-
 * Fork, create a feature branch, run tests, open a PR.
 * Keep code well-documented with **docstrings** (no noisy inline comments).
 
@@ -296,6 +286,11 @@ If you later enable OIDC role assumption, you can add a job that authenticates t
 ## License
 
 MIT. See `LICENSE`.
+
+---
+
+## Disclaimer
+* This README.md created by CHATGPT.
 
 ---
 
