@@ -301,21 +301,6 @@ If you later enable OIDC role assumption, you can add a job that authenticates t
 
 ---
 
-## FAQ
-
-**Why no Glue/Athena?**
-Intentionally omitted—this repo demonstrates AWS S3/MinIO discipline without deep data platform dependencies.
-
-**Can I switch to Parquet by default?**
-Yes. Pass `--format parquet` in CLI or set a small wrapper script.
-
-**How do I extend to new datasets?**
-Add a generator in `src/dataset.py`, then pass `--dataset your_name` and update required columns if you add validation.
-
-**How big can files be?**
-Multipart uploads enable large objects; adjust `multipart_threshold` and `max_concurrency` in `storage_client.py` if needed.
-
----
 
 ## Contributing
 
