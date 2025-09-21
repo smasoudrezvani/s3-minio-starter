@@ -290,7 +290,7 @@ MIT. See `LICENSE`.
 ---
 
 ## Disclaimer
-* This README.md created by CHATGPT.
+This README.md created by CHATGPT.
 
 ---
 
