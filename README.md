@@ -285,22 +285,6 @@ If you later enable OIDC role assumption, you can add a job that authenticates t
 
 ---
 
-## Troubleshooting
-
-* **`AccessDenied` or 403**
-  Check bucket policy and IAM permissions. Ensure `s3:ListBucket` is allowed on the **bucket ARN** and object actions on the **object ARN**.
-
-* **MinIO `SignatureDoesNotMatch`**
-  Set `USE_PATH_STYLE=1` and ensure `ENDPOINT_URL` is correct (`http://host:9000`). Confirm credentials match your MinIO server.
-
-* **`Key already exists but upload keeps happening`**
-  Idempotency is by **content**, not key alone. If content differs, a new version overwrites the old key.
-
-* **CSV compression issues when reading**
-  `get_df` tries `compression="infer"`; if it fails, it retries uncompressed read. Ensure you pick the correct `fmt`.
-
----
-
 
 ## Contributing
 
